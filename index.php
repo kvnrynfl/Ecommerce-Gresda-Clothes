@@ -180,7 +180,7 @@
                                     <a href="#">
                                         <h3>Topi</h3>
                                     </a>
-                                    <a href="../Produk/Topi/Produk/Topi.html" class="button">View Category</a>
+                                    <a href="./Catalog/Topi/Produk/Topi.html" class="button">View Category</a>
                                 </div>
                             </div>
                             <div class="product">
@@ -191,7 +191,7 @@
                                     <a href="#">
                                         <h3>Tas</h3>
                                     </a>
-                                    <a href="../Produk/Tas/Produk/Tas.html" class="button">View Category</a>
+                                    <a href="./Catalog/Tas/Produk/Tas.html" class="button">View Category</a>
                                 </div>
                             </div>
                         </div>
