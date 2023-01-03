@@ -102,7 +102,7 @@
                         <div class="product-center container">
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="Gambar/Background/produk1.png" alt="">
+                                    <img src="./Assets/Gambar/Background/produk1.png" alt="">
                                     
                                 </div>
                                 <div class="product-footer">
@@ -114,7 +114,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="Gambar/Background/produk2.png" alt="">
+                                    <img src="./Assets/Gambar/Background/produk2.png" alt="">
                                     
                                 </div>
                                 <div class="product-footer">
@@ -126,7 +126,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="Gambar/Background/produk3.png" alt="">
+                                    <img src="./Assets/Gambar/Background/produk3.png" alt="">
                                     
                                 </div>
                                 <div class="product-footer">
@@ -138,7 +138,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="Gambar/Background/produk4.png" alt="">
+                                    <img src="./Assets/Gambar/Background/produk4.png" alt="">
                                     
                                 </div>
                                 <div class="product-footer">
@@ -150,7 +150,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="Gambar/Background/produk5.png" alt="">
+                                    <img src="./Assets/Gambar/Background/produk5.png" alt="">
                                     
                                 </div>
                                 <div class="product-footer">
@@ -162,7 +162,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="Gambar/Background/produk6.png" alt="">
+                                    <img src="./Assets/Gambar/Background/produk6.png" alt="">
                                     
                                 </div>
                                 <div class="product-footer">
@@ -174,7 +174,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="Gambar/Background/produk7.png" alt="">
+                                    <img src="./Assets/Gambar/Background/produk7.png" alt="">
                                 </div>
                                 <div class="product-footer">
                                     <a href="#">
@@ -185,7 +185,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="Gambar/Background/produk8.png" alt="">
+                                    <img src="./Assets/Gambar/Background/produk8.png" alt="">
                                 </div>
                                 <div class="product-footer">
                                     <a href="#">
@@ -207,7 +207,7 @@
                         <div class="product-center container">
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="../Catalog/T-Shirt/Produk/Gambar/1.1.png" alt="">
+                                    <img src="./Assets/Gambar Produk/T-Shirt/1.1.png" alt="">
                                     <ul class="icons">
                                         <span><i class="bx bx-heart"></i></span>
                                         <span><i class="bx bx-shopping-bag"></i></span>
