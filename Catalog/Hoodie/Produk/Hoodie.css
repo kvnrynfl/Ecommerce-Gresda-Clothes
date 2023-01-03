@@ -1,0 +1,1055 @@
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+html
+{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: white;
+    color: red;
+    position: relative;
+    z-index: 1;
+}
+
+h1,
+h2,
+h3,
+h4
+{
+    font-weight: 500;
+}
+
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+li
+{
+    list-style: none;
+}
+
+.container
+{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.container-md
+{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1200px)
+{
+    .container
+    {
+        padding: 0 3rem;
+    }
+    .container-md
+    {
+        padding: 0 3rem;
+    }
+}
+
+
+
+
+
+/* HEADER START */
+
+.header
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.nav
+{
+    padding: 1.6rem 0;
+}
+
+.nav.fix-nav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.nav.fix-nav .nav-link,
+.nav.fix-nav .logo,
+.nav.fix-nav .cart-icon,
+.nav.fix-nav .hamburger
+{
+    color: white;
+}
+
+.navigation
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1
+{
+    font-size: 2.5rem;
+}
+
+.top-nav
+{
+    display: none;
+}
+
+.nav-list   
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:not(:last-child)
+{
+    margin-right: 0.5rem;
+}
+
+.nav-link:link,
+.nav-link:visited
+{
+    padding: 0.8rem 1rem;
+    transition: all 300ms ease-in-out;
+}
+
+.nav-link.icon
+{
+    font-size: 3rem;
+}
+
+.hamburger
+{
+    display: none;
+}
+
+.cart-icon
+{
+    display: none;
+}
+
+.hero-img
+{
+    position: absolute;
+    bottom: -10%;
+    right: -5%;
+    height: 70rem;
+    object-fit: contain;
+}
+
+.hero-content
+{
+    position: absolute;
+    top: 50%;
+    transform: translate(25%, -50%);
+}
+
+.hero-content h2
+{
+    color: red;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-content .discount
+{
+    color: red;
+}
+
+.hero-content h1 span
+{
+    color: red;
+    font-size: 6rem;
+    font-weight: 700;
+    display: block;
+    line-height: 1;
+    text-shadow: 3px 3px 0 white, 4px 4px 0 white;
+}
+
+.btn
+{
+    display: inline-block;
+    background-color: red;
+    padding: 1.2rem 4rem;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    .menu
+    {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        max-width: 40rem;
+        height: 100%;
+        background-color: white;
+        transition: all 500ms ease-in-out;
+        z-index: 100;
+    }
+    .menu.show
+    {
+        left: 0;
+    }
+    .top-nav
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: red;
+        padding: 1rem 1.6rem;
+    }
+    .top-nav .logo
+    {
+        color: white;
+    }
+    .top-nav .close
+    {
+        color: white;
+        font-size: 3rem;
+        padding: 1rem;
+        cursor: pointer;
+    }
+    .cart-icon
+    {
+        display: block;
+        font-size: 3rem;
+    }
+    .hamburger
+    {
+        display: block;
+        font-size: 3rem;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
+    .nav-list
+    {
+        flex-direction: column;
+        align-items: start;
+        padding: 1rem 1.6rem;
+        font-weight: 500;
+        align-items: center;
+    }
+
+    .nav-link:link,
+    .nav-link:visited
+    {
+        display: block;
+        font-size: 1.7rem;
+        padding: 1rem 0;
+    }
+    .nav.fix-nav .nav-link
+    {
+        color: red;
+    }
+    .nav-link.icon
+    {
+        display: none;
+    }
+    body.show::before
+    {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 4;
+    }
+    .nav.show
+    {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
+@media only screen and (max-width: 1200px) 
+{
+    .hero-img
+    {
+        right: -20%;
+    }
+    .hero-content
+    {
+        transform: translate(20%, -50%);
+    }
+    .hero-content h2
+    {
+        font-size: 2rem;
+    } 
+    .hero-content h1 span
+    {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 996px) 
+{
+    .header
+    {
+        min-height: 70vh;
+    }
+    .hero-img
+    {
+        height: 40rem;
+        right: -20%;
+    }
+}
+
+@media only screen and (max-width: 567px) 
+{
+    .header
+    {
+        min-height: 100vh;
+    }
+    .hero-img
+    {
+        bottom: -15%;
+        right: 0;
+    }
+    .hero-content
+    {
+        transform: translate(15%, -50%);
+    }
+    .hero-content h2
+    {
+        font-size: 1.8rem;
+    } 
+    .hero-content h1 span
+    {
+        font-size: 4rem;
+    }
+    .hero-content a
+    {
+        padding: 1rem 3rem;
+    }
+}
+
+/* HEADER END */
+
+
+
+
+
+/* Advert Start */
+
+.section
+{
+    padding: 10rem 0 5rem 0;
+}
+
+.section .advert-center
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 3rem;
+}
+
+.section .advert-box
+{
+    position: relative;
+    color: white;
+    height: 27rem;
+    border-radius: 1.6rem;
+    padding: 1.6rem;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.section .advert-box img
+{
+    position: absolute;
+    bottom: 0;
+    left: -20%;
+    height: 100%;
+    width: 35rem;
+    z-index: -1;
+}
+
+.section .advert-box:nth-child(1)
+{
+    background-color: pink;
+}
+
+.section .advert-box:nth-child(2)
+{
+    background-color: lightblue;
+}
+
+.section .advert-box:nth-child(3)
+{
+    background-color: purple;
+}
+
+.section .advert-box .dotted
+{
+    position: relative;
+    height: 100%;
+    border: 2px dashed whitesmoke;
+    border-radius: 1rem;
+}
+
+.section .advert-box .content
+{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+.section .advert-box .content h2,
+.section .advert-box .content h4
+{
+    text-shadow: 5px 6px 0px rgb(37, 59, 112, 0.1);
+}
+
+.section .advert-box .content h2
+{
+    line-height: 1.2;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.section .advert-box .content h4 
+{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-bottom: 20rem;
+    text-align: end;
+}
+
+/* Advert End */
+
+
+
+
+
+/* Featured Start */
+
+.section .title
+{
+    margin: -8rem 0 8rem 0;
+    text-align: center;
+}
+
+.section .title h1
+{
+    font-size: 3rem;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+}
+
+.section .title h1::after
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    width: 50%;
+    height: 0.4rem;
+    z-index: 1;
+}
+
+.section .product-center
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 7rem 3rem;
+}
+
+.section .product
+{
+    height: 48rem;
+    background-color: white;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+}
+
+.section .product:hover
+{
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+.section .product-header
+{
+    position: relative;
+    background-color: whitesmoke;
+    height: 35rem;
+    transition: all 300ms ease-in-out;
+    z-index: 0;
+}
+
+.section .product-header img
+{
+    height: 100%;
+}
+
+.section .product-footer
+{
+    padding: 2rem 1.6rem 1.6rem 1.6rem;
+}
+
+.section .product-footer h3
+{
+    font-size: 2.2rem;
+}
+
+.section .rating
+{
+    color: gold;
+    font-size: 2rem;
+} 
+
+.section .product:hover .product-header::after
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 1rem 1rem 0 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transition: all 500ms ease-in-out;
+}
+
+.section .product-header .icons
+{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%) scale(0);
+    z-index: 2;
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+}
+
+.section .product-header .icons span
+{
+    background-color: white;
+    font-size: 2.5rem;
+    display: block;
+    border-radius: 50%;
+    padding: 1.5rem 1.6rem;
+    line-height: 2rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.section .product-header .icons span i
+{
+    transition: all 500ms ease-in-out;
+}
+
+.section .product-header .icons span:not(:last-child)
+{
+    margin-bottom: 1rem;
+}
+
+.section .product-header .icons span:hover
+{
+    background: red;
+    color: white;
+}
+
+.section .product:hover .icons
+{
+    opacity: 1;
+    transform: translate(0, -50%) scale(1);
+}
+
+.section .product:hover .icons a
+{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.section .product-footer .button
+{
+    display: inline-block;
+    background-color: red;
+    padding: 1rem 4rem;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+.section .product-footer .button:hover
+{
+    transform: scale(1.1);
+}
+
+/* Featured End */
+
+
+
+
+
+/* Product Banner Start */
+
+.section .product-banner
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50rem;
+    background-color: darkred;
+}
+
+.section .product-banner .left img
+{
+    object-fit: cover;
+    height: 100%;
+}
+
+.section .product-banner .right
+{
+    align-self: center;
+    text-align: center;
+    padding: 1.6rem;
+}
+
+.section .product-banner .content h2
+{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.section .product-banner .content .discount
+{
+    color: white;
+}
+
+.section .product-banner h1 span
+{
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+    display: block;
+    line-height: 1.2;
+}
+
+@media only screen and (max-width: 996px)
+{
+    .section .product-banner .content h1 span
+    {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    .section .product-banner
+    {
+        grid-template-columns: 1fr;
+    }
+    .section .product-banner .left
+    {
+        display: none;
+    }
+    .section .product-banner .content h1 span
+    {
+        font-size: 4rem;
+    }
+    .section .product-banner .content h2 
+    {
+        font-size: 2rem;
+    }
+    .section .product-banner .content a
+    {
+        padding: 1rem 3rem;
+    }
+}
+
+/* Product Banner End */
+
+
+
+
+
+/* Footer Start */
+
+footer
+{
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: whitesmoke;
+}
+
+footer .container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .container .sec
+{
+    margin-right: 30px;
+}
+
+footer .container .sec.aboutus
+{
+    width: 40%;
+}
+
+footer .container h2
+{
+    position: relative;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .container h2:before
+{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: red;
+}
+
+footer .container .sec.aboutus h2 span
+{
+    color: red;
+}
+
+footer .container .sec.quickLinks
+{
+    margin-bottom: 60px;
+}
+
+footer .container .sec.kontak
+{
+    margin-bottom: 50px;
+}
+
+footer p
+{
+    color: black;
+}
+
+.sci
+{
+    margin-top: 20px;
+    display: flex;
+}
+
+.sci li
+{
+    list-style: none;
+}
+
+.sci li a
+{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sci li a:hover
+{
+    background: red;
+    color: white;
+}
+
+.quickLinks
+{
+    position: relative;
+    width: 25%;
+}
+
+.quickLinks ul li
+{
+    list-style: none;
+}
+
+.quickLinks ul li a
+{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.quickLinks ul li a:hover
+{
+    color: red;
+}
+
+.kontak
+{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.kontak .info 
+{
+    position: relative;
+}
+
+.kontak .info li
+{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.kontak .info li span:nth-child(1)
+{
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.kontak .info li span
+{
+    color: black;
+}
+
+.kontak .info li a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.kontak .info li a:hover
+{
+    color: red;
+}
+
+.copyrightText 
+{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgba(232, 232, 232, 0.5);
+  background-color: black;
+}
+
+.copyrightText  p 
+{
+  margin: 15px 0px;
+  color: white;
+  font-size: 1rem;
+}
+
+.copyrightText img
+{
+    position: center;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+@media (max-width: 991px)
+{
+    footer
+    {
+        padding: 40px;
+    }
+    footer .container
+    {
+        flex-direction: column;
+    }
+    footer .container .sec
+    {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container .sec.aboutus,
+    .quickLinks,
+    .kontak
+    {
+        width: 100%;
+    }
+    .copyrightText
+    {
+        padding: 8px 40px;
+    }
+}
+
+/* Footer End */
+
+
+
+
+
+/* Gresda T-Shirt Start */
+
+.section .top
+{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.all-products .top select
+{
+    font-family: "Poppins", sans-serif;
+    width: 20rem;
+    padding: 1rem;
+    border: 1px solid gray;
+    appearance: none;
+    outline: none;
+}
+
+form
+{
+    position: relative;
+    z-index: 1;
+}
+
+form span
+{
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    z-index: 0;
+}
+
+/* Gresda T-Shirt End */
+
+
+
+
+
+
+/* Pagination Start */
+
+.pagination
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.pagination ul 
+{
+    position: relative;
+    background: white;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+}
+
+.pagination ul li 
+{
+    list-style: none;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.pagination ul li.pageNumber
+{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.pagination ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+    border-radius: 50%;
+}
+
+.pagination ul li.pageNumber:hover a,
+.pagination ul li.pageNumber.active a
+{
+    background: red;
+    color: white;
+}
+
+.pagination ul li:first-child
+{
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.pagination ul li:last-child
+{
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+/* Pagination End */
