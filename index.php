@@ -73,7 +73,7 @@
                     </div>
                 </nav>
 
-                <img src="Gambar/Background/banner.png" class="hero-img" alt="">
+                <img src="./Assets/Gambar/Background/banner.png" class="hero-img" alt="">
                 <div class="hero-content">
                     <h2><span class="discount">DISCOUNT </span>50%</h2>
                     <h1>
@@ -109,7 +109,7 @@
                                     <a href="#">
                                         <h3>T-Shirt</h3>
                                     </a>
-                                    <a href="../Catalog/T-Shirt/Produk/T-Shirt.html" class="button">View Category</a>
+                                    <a href="./Catalog/T-Shirt/Produk/T-Shirt.html" class="button">View Category</a>
                                 </div>
                             </div>
                             <div class="product">
@@ -121,7 +121,7 @@
                                     <a href="#">
                                         <h3>Crewneck</h3>
                                     </a>
-                                    <a href="../Catalog/Crewneck/Crewneck.html" class="button">View Category</a>
+                                    <a href="./Catalog/Hoodie/Produk/Hoodie.html" class="button">View Category</a>
                                 </div>
                             </div>
                             <div class="product">
@@ -133,7 +133,7 @@
                                     <a href="#">
                                         <h3>Hoodie</h3>
                                     </a>
-                                    <a href="../Produk/Hoodie/Produk/Hoodie.html" class="button">View Category</a>
+                                    <a href="./Catalog/Hoodie/Produk/Hoodie.html" class="button">View Category</a>
                                 </div>
                             </div>
                             <div class="product">
@@ -145,7 +145,7 @@
                                     <a href="#">
                                         <h3>Jacket</h3>
                                     </a>
-                                    <a href="../Produk/Jacket/Produk/Jacket.html" class="button">View Category</a>
+                                    <a href="./Catalog/Jacket/Produk/Jacket.html" class="button">View Category</a>
                                 </div>
                             </div>
                             <div class="product">
@@ -157,7 +157,7 @@
                                     <a href="#">
                                         <h3>Celana</h3>
                                     </a>
-                                    <a href="../Produk/Celana/Produk/Celana.html" class="button">View Category</a>
+                                    <a href="./Catalog/Celana/Produk/Celana.html" class="button">View Category</a>
                                 </div>
                             </div>
                             <div class="product">
@@ -169,7 +169,7 @@
                                     <a href="#">
                                         <h3>Accessories</h3>
                                     </a>
-                                    <a href="../Produk/Accessories/Produk/Accessories.html" class="button">View Category</a>
+                                    <a href="./Catalog/Accessories/Produk/Accessories.html" class="button">View Category</a>
                                 </div>
                             </div>
                             <div class="product">
@@ -230,7 +230,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="../Catalog/Crewneck/Produk/Gambar/1.png" alt="">
+                                    <img src="./Assets/Gambar Produk/Crewneck/1.png" alt="">
                                     <ul class="icons">
                                         <span><i class="bx bx-heart"></i></span>
                                         <span><i class="bx bx-shopping-bag"></i></span>
@@ -253,7 +253,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="../Catalog/Hoodie/Produk/Gambar/1.png" alt="">
+                                    <img src="./Assets/Gambar Produk/Hoodie/1.png" alt="">
                                     <ul class="icons">
                                         <span><i class="bx bx-heart"></i></span>
                                         <span><i class="bx bx-shopping-bag"></i></span>
@@ -276,7 +276,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="../Catalog/Jacket/Produk/Gambar/1.png" alt="">
+                                    <img src="./Assets/Gambar Produk/Jacket/1.png" alt="">
                                     <ul class="icons">
                                         <span><i class="bx bx-heart"></i></span>
                                         <span><i class="bx bx-shopping-bag"></i></span>
@@ -299,7 +299,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="../Catalog/Celana/Produk/Gambar/1.png" alt="">
+                                    <img src="./Assets/Gambar Produk/Celana/1.png" alt="">
                                     <ul class="icons">
                                         <span><i class="bx bx-heart"></i></span>
                                         <span><i class="bx bx-shopping-bag"></i></span>
@@ -322,7 +322,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="../Catalog/Accessories/Produk/Gambar/1.png" alt="">
+                                    <img src="./Assets/Gambar Produk/Accessories/1.png" alt="">
                                     <ul class="icons">
                                         <span><i class="bx bx-heart"></i></span>
                                         <span><i class="bx bx-shopping-bag"></i></span>
