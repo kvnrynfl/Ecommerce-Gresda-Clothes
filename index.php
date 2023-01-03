@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="Gambar/Background/Logo.png" type="image/x-icon">
+        <link rel="shortcut icon" href="./Assets/Gambar/Background/Logo.png" type="image/x-icon">
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -345,7 +345,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="../Catalog/Topi/Produk/Gambar/1.jpg" alt="">
+                                    <img src="./Catalog/Topi/Produk/Gambar/1.jpg" alt="">
                                     <ul class="icons">
                                         <span><i class="bx bx-heart"></i></span>
                                         <span><i class="bx bx-shopping-bag"></i></span>
@@ -368,7 +368,7 @@
                             </div>
                             <div class="product">
                                 <div class="product-header">
-                                    <img src="../Catalog/Tas/Produk/Gambar/1.jpg" alt="">
+                                    <img src="./Catalog/Tas/Produk/Gambar/1.jpg" alt="">
                                     <ul class="icons">
                                         <span><i class="bx bx-heart"></i></span>
                                         <span><i class="bx bx-shopping-bag"></i></span>
@@ -398,7 +398,7 @@
                     <section class="section" id="diskon">
                         <div class="product-banner">
                             <div class="left">
-                                <img src="Gambar/Background/banner2.jpg" alt="">
+                                <img src="./Assets/Gambar/Background/banner2.jpg" alt="">
                             </div>
                             <div class="right">
                                 <div class="content">
@@ -465,7 +465,7 @@
                     </footer>
                     <div class="copyrightText">
                         <p>Stay High And Never Down.</p>
-                        <img src="Gambar/Background/Logo.png">
+                        <img src="./Assets/Gambar/Background/Logo.png">
                         <p>&copy Copyright 2021 - Gresda Clothes.</p>
                     </div> 
                 <!-- Footer End -->
