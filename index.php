@@ -19,7 +19,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Costum Stylesheet -->
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="style.css">
         <title>Gresda Clothes</title>
     </head>
 
@@ -479,7 +479,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"> </script>
 
         <!-- Js -->
-        <script src="index.js"></script>
+        <script src="script.js"></script>
 
         
     </body>
